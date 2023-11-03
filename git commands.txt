@@ -1,0 +1,22 @@
+git --version
+git init
+git config --global user.name 'Your_Name'
+git config --global user.email 'Your enamil'
+git config --global --list
+git add abc.docx
+git status
+git add.
+git commit --m 'Commit 1'
+git log
+git remote -v
+git remote add origin github link
+git remote show origin
+git remote push origin master
+git fetch origin master
+git merge origin master
+git clone githublink
+git branch
+git branch "NewBranvh1"
+git checkout "NewBranvh"
+git branch
+git checkout master

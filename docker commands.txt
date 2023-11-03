@@ -1,0 +1,21 @@
+docker –version 
+docker pull ubuntu
+docker login
+docker images
+docker build -t image .
+docker run image
+docker ps
+docker pull ubuntu:rolling
+docker search image
+docker inspect image
+docker history image
+docker config
+docker images -q
+docker rm a843e981183cb69063c72042b9bc20ec4c1797e5061bc2e2bb6c9f07670d89fa
+docker rmi ubuntu
+docker stats 9045e50c82ba1e54e1206e7a3d6a157ba96bf85c1f8fb72099121b8e61ddbeac
+docker stop 9045e50c82ba1e54e1206e7a3d6a157ba96bf85c1f8fb72099121b8e61ddbeacdocker restart 9045e50c82ba1e54e1206e7a3d6a157ba96bf85c1f8fb72099121b8e61ddbeac
+ docker pause 9045e50c82ba1e54e1206e7a3d6a157ba96bf85c1f8fb72099121b8e61ddbeac
+docker top 9045e50c82ba1e54e1206e7a3d6a157ba96bf85c1f8fb72099121b8e61ddbeac
+
+
